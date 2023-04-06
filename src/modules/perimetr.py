@@ -1,2 +1,5 @@
-def perrimetr_func(a, b, c):
-    return a + b + c
+def perrimetr_func(arr):
+   summa = 0
+for storona in arr:
+    summa += storona
+ return summa
